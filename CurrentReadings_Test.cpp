@@ -23,7 +23,7 @@ TEST_CASE(" Passing Test: Number of Ranges in the Current Readings Check for Min
 
 }
 
-TEST_CASE(" Failing Test: Check for No (0) Current readings")
+TEST_CASE(" Failing Test: Check for Number Of Current readings")
 {
 	std::vector<CurrentReadingsParameters*> RangeAndReadings = {};
 	processCurrentReadingsData({}, RangeAndReadings);
